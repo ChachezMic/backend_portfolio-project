@@ -20,8 +20,7 @@ router.post("/register", async (ctx) => {
       );
     }
   });
-
-  router.post("/login", async (ctx) => {
+router.post("/login", async (ctx) => {
     const loginData: LoginData | undefined = await ctx.request.body.json();
     if (loginData) {
       console.log(

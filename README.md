@@ -9,3 +9,5 @@ The server runs on:
 . Perform CRUD operations with SQLite databases using @db/sqlite
 . sign and verify using WebCrypto API for JWT with @zaubrik/djwt
 . Hash passwords with @denosaurs/argontwo
+
+USAGE:
